@@ -1,0 +1,191 @@
+body{
+    margin: auto;
+    background-color: #ecd4c9;
+}
+#header{
+    height: 60px;
+    background-color: #e09c83;
+}
+
+#icon{
+    position: absolute; 
+    margin-top: -1%; 
+    margin-left: 1%;
+    color: white;
+}
+
+#icon >h1 >a{
+    color: white !important;
+    text-decoration: none;
+}
+
+#social{
+    float: right;
+    margin-right: 1%;
+    margin-top: 5px;
+ }
+ 
+.fa {
+ padding: 10px;
+ font-size: 30px;
+ width: 15px;
+ text-align: center;
+ text-decoration: none;
+ margin: 5px 2px;
+ border-radius: 50%;
+}
+ 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+ 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+ 
+.headingText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#listingContainer{
+   width: 80%;
+   height: 900px;
+   margin-left: 10%;
+}
+
+.filter{
+    width: 20%;
+    height: 750px;
+    float: left;
+    background: blanchedalmond;
+}
+
+.filterHeading{
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+.afterfilter{
+    width: 80%;
+    height: 180px;
+    margin-left: 20%;
+}
+
+.afterSortBy{
+    width: 80%;
+    height: 100px;
+    margin-left: 20%;  
+
+}
+
+.ByLocation{
+    width: 80%;
+    height: 180px;
+    margin-left: 20%;
+    
+}
+
+.afterByLocation{
+    width: 80%;
+    height: 100px;
+    margin-left: 20%;   
+
+}
+
+.ByCuisine{
+    width: 80%;
+    height: 130px;
+    margin-left: 20%;
+    
+}
+
+.afterByCuisine{
+    width: 80%;
+    height: 100px;
+    margin-left: 20%;   
+}
+
+.ByPrice{
+   width: 80%;
+   height: 80px;
+   margin-left: 20%;
+}
+
+.afterByPrice{
+    width: 80%;
+   height: 80px;
+   margin-left: 20%;
+   
+}
+
+/************************************************************************/
+.content{
+    width: 74%;
+    height: 750px;
+    border: 2px solid green;
+    float: left;
+    margin-left: 5%;
+}
+
+.tileContainer{
+    height: 180px;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 10px 20px 10px grey;
+  }
+  
+  .tileComponent1{
+    float: left;
+    width: 50%;
+    height: 180px;
+  }
+  
+  .tileComponent1 > img{
+      width: 100%;
+      height: 180px;
+  
+  }
+  
+  .tileComponent2{
+      width: 40%;
+      float: left;
+      height: 100px;
+      margin-left: 5%;
+      margin-top: 5%;
+  
+  }
+
+.componentHeading{
+    color: #ac2e31 !important;
+    text-decoration: none;
+    font-size: 25px;
+}
+  
+.componentHeading > a{
+      color: #ac2e31 !important;
+      text-decoration: none;
+}
+  
+.componentSubHeading{
+    color: grey;
+    font-size: 15px;
+}
+
+.stars{
+      margin-top: 4%;
+}
+
+.price{
+    margin-top:2%;
+}

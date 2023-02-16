@@ -1,0 +1,214 @@
+body{
+    margin: auto;
+    background-color: #ecd4c9;
+}
+
+/* START STYLING HEADER'S  */
+
+#header{
+    height: 60px;
+    background-color: #e09c83;
+}
+
+/* ************************************************************************************************************************** */
+
+/* STYLING ICONS */
+#icon{
+    position: absolute; 
+    margin-top: -1%; 
+    margin-left: 1%;
+    color: white !important;
+}
+
+/* ************************************************************************************************************************* */
+
+/* STYLING SOCIALS */
+#social{
+   float: right;
+   margin-right: 1%;
+   margin-top: 5px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* ************************************************************************************************************************* */
+
+
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+
+/*****************************************************************************************************************************/
+
+/* STYLING SEARCH DIV */
+#search{
+    height: 400px;
+    background-image: url(../images/zomatoheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+}
+
+/*******************************************************************************************************************************/
+
+}
+
+#header .nav-top{
+    text-decoration: none;
+}
+
+/* STYLING SEARCH LOGO DIV */
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin:45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 80px;
+    color: orangered;
+}
+
+#logo > img{
+    border-radius: 50%;
+}
+
+#logo > span{
+    margin:31%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+/*******************************************************************************************************************************/
+
+/* STYLING SEARCH HEADING DIV */
+
+#heading{
+    margin:33%;
+    margin-top: 13%;
+    position: absolute;
+    font-size: 35px;
+    color: white; 
+}
+
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin:25%;
+    margin-top: 19%;
+    position: absolute;
+}
+
+select{
+    height: 60px;
+    width: 35%;
+    background-color: grey  ;
+}
+
+.restaurantSelect{
+    width: 50%;
+}
+
+/*******************************************************************************************************************************/
+
+/* STARTING QUICK SEARCH DIV */
+#Quicksearch{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+ display: inline-block;
+ 
+}
+
+#QuickHeading{
+  display: block;
+  color: #ac2e31;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-left: 2%;
+ 
+}
+
+#QuickSubHeading{
+  line-height: 2;
+  color: grey;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+.tileContainer{
+  height: 180px;
+  width: 30%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  box-shadow: 10px 20px 10px grey;
+  background: blanchedalmond;
+}
+
+.tileComponent1{
+  float: left;
+  width: 50%;
+  height: 180px;
+}
+
+.tileComponent1 > img{
+    width: 100%;
+    height: 180px;
+
+}
+
+.tileComponent2{
+    width: 40%;
+    float: left;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 14%;
+
+}
+
+.componentHeading{
+  color: #ac2e31 !important;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.componentHeading > a{
+    color: #ac2e31 !important;
+}
+
+.componentSubHeading{
+  color: grey;
+  font-size: 15px;
+}
+/******************************************************************************************************************************/
+
